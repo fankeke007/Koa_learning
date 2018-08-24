@@ -1,0 +1,15 @@
+{
+  "name": "full-demo",
+  "version": "1.0.0",
+  "description": "一个简单完整的koa项目",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC"
+}

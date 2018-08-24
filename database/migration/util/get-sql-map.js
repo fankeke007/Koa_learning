@@ -4,6 +4,7 @@ const walkFile = require('./walk-file');
 //获取sql目录下的文件目录数据
 function getSqlMap(){
     let basePath = __dirname;
+    console.log('basePath:'+basePath);
     basePath = basePath.replace(/\\/g,'\/');
 
     let pathArr = basePath.split('\/');

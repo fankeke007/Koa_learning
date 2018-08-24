@@ -13,7 +13,7 @@ let query = function(sql,values){
             if(err){
                 reject(err);
             }else{
-                connection.query(sql,values,(err,row)=>{
+                connection.query(sql,values,(err,rows)=>{
                     if(err){
                         reject(err);
                     }else{
